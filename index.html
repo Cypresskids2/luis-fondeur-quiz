@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+   <div  class="question-box">
+        <h1 class="question-text">
+            What do you need to make a wooden pickaxe?
+        </h1>
+        <img class="question-img" src="woodenpick.jpg" alt="woodenpick.jpg">
+        <div class="awnser-choices">
+         <button id="choice1" class="awnser" onclick="correct(this)">2 sticks and 3 wood planks</button>
+         <button id="choice2" class="awnser" onclick="incorrect(this)">3 sticks and 2 wood planks</button>
+         <button id="choice3" class="awnser" onclick="incorrect(this)">wood plank</button>
+         <button id="choice4" class="awnser" onclick="incorrect(this)">5 sticks</button>   
+        </div>
+   </div>
+   <div  class="question-box">
+    <h1 class="question-text">
+        what is the hardest mineral to get in Minecraft?
+    </h1>
+    <img class="question-img" src="lol.jpg" alt="lol.jpg">
+    <div class="awnser-choices">
+     <button id="choice1" class="awnser"onclick="correct(this)">Emeralds</button>
+     <button id="choice2" class="awnser"onclick="incorrect(this)">Diamond</button>
+     <button id="choice3" class="awnser"onclick="incorrect(this)">Iron</button>
+     <button id="choice4" class="awnser"onclick="incorrect(this)">Redstone</button>   
+    </div>
+</div>
+<div  class="question-box">
+    <h1 class="question-text">
+        What gamemode do you get bedrock from (the block)?
+    </h1>
+    <img class="question-img" src="bedrock.jpg" alt="bedrock.jpg">
+    <div class="awnser-choices">
+     <button id="choice1" class="awnser"onclick="correct(this)">Creative Mode</button>
+     <button id="choice2" class="awnser"onclick="incorrect(this)">Survival</button>
+     <button id="choice3" class="awnser"onclick="incorrect(this)">Adventure</button>
+     <button id="choice4" class="awnser"onclick="incorrect(this)">Hardcore</button>   
+    </div>
+</div>
+<div  class="question-box">
+    <h1 class="question-text">
+        What is the easiest way to get to the Nether Fortress?
+    </h1>
+    <img class="question-img" src="russia.jpg" alt="russia.jpg">
+    <div class="awnser-choices">
+     <button id="choice1" class="awnser"onclick="correct(this)">Follow the Z Axis</button>
+     <button id="choice2" class="awnser"onclick="incorrect(this)">Walk in a straight line</button>
+     <button id="choice3" class="awnser"onclick="incorrect(this)">Leave the Nether</button>
+     <button id="choice4" class="awnser"onclick="incorrect(this)">Follow the y axis backwards</button>   
+    </div>
+</div>
+<div  class="question-box">
+    <h1 class="question-text">
+        What is the thing most players start to do when they create a new world?
+    </h1>
+    <img class="question-img" src="32322323322.jpg" alt="32322323322.jpg">
+    <div class="awnser-choices">
+     <button id="choice1" class="awnser"onclick="correct(this)">Get Wood</button>
+     <button id="choice2" class="awnser"onclick="incorrect(this)">Build A Spawn Pillar</button>
+     <button id="choice3" class="awnser"onclick="incorrect(this)">Build A House</button>
+     <button id="choice4" class="awnser"onclick="incorrect(this)">Get Water</button>   
+    </div>
+</div>
+<div  class="question-box">
+    <h1 class="question-text">
+        What is the most powerful item in the game
+    </h1>
+    <img class="question-img" src="9090.jpg" alt="9090.jpg">
+    <div class="awnser-choices">
+     <button id="choice1" class="awnser"onclick="correct(this)">Netherite Gear</button>
+     <button id="choice2" class="awnser"onclick="incorrect(this)">Diamond Sword</button>
+     <button id="choice3" class="awnser"onclick="incorrect(this)">Diamond Axe</button>
+     <button id="choice4" class="awnser"onclick="incorrect(this)">Wood Sword</button>   
+    </div>
+</div>
+<div  class="question-box">
+    <h1 class="question-text">
+        What was minecraft originally going to be called?
+    </h1>
+    <img class="question-img" src="xbox.jpg" alt="xbox.jpg">
+    <div class="awnser-choices">
+     <button id="choice1" class="awnser"onclick="correct(this)">Cave Game</button>
+     <button id="choice2" class="awnser"onclick="incorrect(this)">Caving</button>
+     <button id="choice3" class="awnser"onclick="incorrect(this)">Mineplot</button>
+     <button id="choice4" class="awnser"onclick="incorrect(this)">CaveCraft</button>   
+    </div>
+</div>
+<div  class="question-box">
+    <h1 class="question-text">
+        Where do you get diamonds from?
+    </h1>
+    <img class="question-img" src="russiadiamodn.jpg" alt="russiadiamodn.jpg">
+    <div class="awnser-choices">
+     <button id="choice1" class="awnser"onclick="correct(this)">A Cave</button>
+     <button id="choice2" class="awnser"onclick="incorrect(this)">the nether</button>
+     <button id="choice3" class="awnser"onclick="incorrect(this)">A village</button>
+     <button id="choice4" class="awnser"onclick="incorrect(this)">A Space</button>   
+    </div>
+</div>
+<div  class="question-box">
+    <h1 class="question-text">
+        How tall is an enderman?
+    </h1>
+    <img class="question-img" src="enderdragon.jpg" alt="enderdragon.jpg">
+    <div class="awnser-choices">
+     <button id="choice1" class="awnser"onclick="correct(this)">3 blocks tall</button>
+     <button id="choice2" class="awnser"onclick="incorrect(this)">1 block tall</button>
+     <button id="choice3" class="awnser"onclick="incorrect(this)">69 blocks wide</button>
+     <button id="choice4" class="awnser"onclick="incorrect(this)">2 feet tall</button>   
+    </div>
+</div>
+<div  class="question-box">
+    <h1 class="question-text">
+        Where does a shipwreck spawn
+    </h1>
+    <img class="question-img" src="123123231.jpg" alt="123123231.jpg">
+    <div class="awnser-choices">
+     <button id="choice1" class="awnser"onclick="correct(this)">Ocean</button>
+     <button id="choice2" class="awnser"onclick="incorrect(this)">Desert</button>
+     <button id="choice3" class="awnser"onclick="incorrect(this)">Nether</button>
+     <button id="choice4" class="awnser"onclick="incorrect(this)">The End</button>   
+    </div>
+</div>
+<div class="button-box">
+    <button class="submit" onclick="calculateScore(this)" >Submit</button>
+</div>
+</body>
+</html>
+ 
